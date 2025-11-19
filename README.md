@@ -106,7 +106,7 @@ Check the `examples/` directory for:
 
 ## 📄 License
 
-See [LICENSE](packages/domynclaimalign/LICENCE) file for details.
+See [LICENSE](LICENCE) file for details.
 
 ## 🆘 Support
 
