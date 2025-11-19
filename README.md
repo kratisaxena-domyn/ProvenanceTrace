@@ -2,27 +2,6 @@
 
 A comprehensive toolkit for provenance tracing and claim verification with support for hallucination detection and entity alignment.
 
-## 🚀 Quick Start
-
-### Installation
-
-```bash
-# Install the core library
-chmod +x setup_dev.sh ./setup_dev.sh
-
-./setup_dev.sh
-```
-
-### Basic Usage
-
-```python
-from domynclaimalign.main import compute_traces
-from domynclaimalign.utils import model_utils
-
-# Example usage
-traces = compute_traces.generate_trace(your_data)
-```
-
 ## 📁 Project Structure
 
 ```
@@ -33,6 +12,8 @@ ProvenanceTrace/
 │       ├── utils/                # Utility functions
 │       └── pyproject.toml        # Package configuration
 ├── examples/                     # Usage examples and experiments
+│   ├── FAV/                      # FAV example
+│   └── OWFA/                     # OWFA example
 ├── docs/                         # Documentation
 └── README.md                     # This file
 ```
@@ -47,7 +28,7 @@ ProvenanceTrace/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <this-repository>
 cd ProvenanceTrace
 
 # Create virtual environment
@@ -56,9 +37,16 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install in development mode
 pip install -e packages/domynclaimalign[dev]
+```
+Or try:
 
-# Install development dependencies
-pip install pytest black flake8 mypy
+### Installation
+
+```bash
+# Install the core library
+chmod +x setup_dev.sh ./setup_dev.sh
+
+./setup_dev.sh
 ```
 
 ### Running Tests
@@ -92,24 +80,9 @@ The package uses `pyproject.toml` for configuration. Key settings:
 ## 📖 Examples
 
 Check the `examples/` directory for:
-- Basic usage examples
-- Advanced use cases
-- Integration examples
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
+- Basic usage examples using large context data: OWFA
+- Advanced use cases using financial agentic AI: FAV
 
 ## 📄 License
 
 See [LICENSE](LICENCE) file for details.
-
-## 🆘 Support
-
-- Create an issue for bug reports
-- Check existing issues before creating new ones
-- Provide detailed information for better support
