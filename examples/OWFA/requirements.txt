@@ -1,0 +1,6 @@
+streamlit
+icecream
+openai
+flask
+matplotlib
+seaborn

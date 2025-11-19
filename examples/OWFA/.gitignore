@@ -1,0 +1,15 @@
+data
+.vscode
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd   
+env/
+env.bak/
+venv/
+core.*
+config.json
+.DS_Store
+experiment_data/experiment_results
+*.json

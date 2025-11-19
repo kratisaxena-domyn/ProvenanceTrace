@@ -1,0 +1,13 @@
+openai
+requests
+yfinance
+icecream
+transformers
+torch
+accelerate
+keybert
+spacy
+fuzzywuzzy
+sentence-transformers
+streamlit
+matplotlib

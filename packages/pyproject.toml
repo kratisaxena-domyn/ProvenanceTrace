@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "domynclaimalign"
+version = "0.1.0"
+description = "A package for claim alignment and traceability in domain-specific datasets."
+authors = [
+    { name="Your Name", email="your.email@example.com" }
+]
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "infini-gram",
+    "pandas",
+    "numpy",
+    "torch",
+    "transformers",
+    "icecream",
+    "datasets",
+    "ai2-olmo",
+    "accelerate",
+    "rank_bm25",
+    "sentencepiece",
+    "keybert",
+    "spacy",
+    "scikit-learn",
+    "sentence-transformers",
+    "nltk",
+    "pyahocorasick",
+    "fuzzywuzzy",
+    "openai"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/DomynClaimAlign"
+Repository = "https://github.com/yourusername/DomynClaimAlign"
+
+[tool.setuptools]
+packages = ["domynclaimalign"]
